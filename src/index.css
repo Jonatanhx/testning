@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-blueprint {
+#root {
+    z-index: -1;
     background-color:#269;
     background-image: linear-gradient(white 2px, transparent 2px),
     linear-gradient(90deg, white 2px, transparent 2px),
