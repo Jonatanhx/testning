@@ -11,8 +11,8 @@ interface Position {
 }
 
 const generateRandomPosition = () => ({
-  top: Math.floor(Math.random() * (window.innerHeight - 40)), // Adjust height to avoid overflow
-  left: Math.floor(Math.random() * (window.innerWidth - 40)), // Adjust width to avoid overflow
+  top: Math.floor(Math.random() * (window.innerHeight - 40)),
+  left: Math.floor(Math.random() * (window.innerWidth - 40)),
 });
 
 const App: React.FC = () => {
